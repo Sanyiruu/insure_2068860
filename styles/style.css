@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header{
+	position: relative;
+	height: 48px;
+	padding-top: 22px;
+	max-width: 950px;
+	margin: 0 auto;
+}
+.header-logo {
+  width: 30%;
+  display: inline-block;
+}
+.header-menu-options{
+  width: 69%;
+  display: inline-block;
+  font-family: 'Karla', serif;
+  text-align: end;
+}
+.header-menu-options a{
+	font-family: 'Karla', serif;
+	text-transform: uppercase;
+	color: hsl(273, 4%, 51%);
+	text-decoration: none;
+	padding: 8px 10px;
+	font-size: 14px;
+}
+.button-border{
+	border: 2px solid hsl(270, 9%, 17%);
+}
+#highlighted{
+	background: hsl(270, 9%, 17%);
+	color: white;
+	margin-left: 5px;
+	padding: 8px 16px;
+}
+.insurance{
+	background-color: hsl(256, 26%, 20%);
+	position: relative;
+}
+.insurance #content{
+	position: relative;
+	max-width: 950px;
+	margin: 0 auto;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.insurance #content-body{
+	font-family: 'Karla', sans-serif;
+	color: white;
+	width: 50%;
+	display: block;
+}
+.insurance #content-body .title{
+	font-family: 'DM Serif Display', sans-serif;
+	line-height: 51px;
+	font-size: 60px;
+	margin-top: 20px;
+}
+.insurance #content-body p{
+	font-family: 'Karla', sans-serif;
+	margin-top: 20px;
+}
+.insurance #content-blank{
+	height: 150px;
+	background-color: white;
+}
+.float-image{
+	position: absolute;
+	width: 340px;
+	right: 0;
+	top: 80px;
+}
+.pattern-intro-right{
+	position: absolute;
+	width: 260px;
+	right: 0;
+	top: 0px;
+	z-index: 1;
+}
+hr{
+	max-width: 90px;
+	color: hsl(270, 9%, 17%);
+}
+.btn-plans{
+	padding: 6px 12px;
+	margin-top: 20px;
+}
