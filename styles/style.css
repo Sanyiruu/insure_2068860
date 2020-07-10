@@ -1,12 +1,13 @@
 * {
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 header{
 	position: relative;
 	height: 48px;
 	padding-top: 22px;
-	max-width: 950px;
+	max-width: 1050px;
 	margin: 0 auto;
 }
 .header-logo {
@@ -16,75 +17,209 @@ header{
 .header-menu-options{
   width: 69%;
   display: inline-block;
-  font-family: 'Karla', serif;
+  font-family: 'Karla';
   text-align: end;
 }
 .header-menu-options a{
-	font-family: 'Karla', serif;
+	font-family: 'Karla';
 	text-transform: uppercase;
-	color: hsl(273, 4%, 51%);
-	text-decoration: none;
+	color: rgb(131, 125, 135);
 	padding: 8px 10px;
 	font-size: 14px;
 }
 .button-border{
-	border: 2px solid hsl(270, 9%, 17%);
-}
-#highlighted{
-	background: hsl(270, 9%, 17%);
-	color: white;
-	margin-left: 5px;
-	padding: 8px 16px;
+	border: 2px solid rgb(43, 39, 47);
 }
 .insurance{
-	background-color: hsl(256, 26%, 20%);
+	background-color: rgb(45, 38, 64);
 	position: relative;
 }
 .insurance #content{
 	position: relative;
-	max-width: 950px;
+	max-width: 1050px;
 	margin: 0 auto;
 	padding-top: 70px;
 	padding-bottom: 70px;
 }
 .insurance #content-body{
-	font-family: 'Karla', sans-serif;
+	font-family: 'Karla';
 	color: white;
 	width: 50%;
 	display: block;
 }
 .insurance #content-body .title{
-	font-family: 'DM Serif Display', sans-serif;
+	font-family: 'DM Serif Display';
 	line-height: 51px;
-	font-size: 60px;
-	margin-top: 20px;
+	font-size: 4em;
+	margin-top: 50px;
 }
 .insurance #content-body p{
-	font-family: 'Karla', sans-serif;
-	margin-top: 20px;
+	font-family: 'Karla';
+	margin-top: 40px;
+	line-height: 25px;
 }
 .insurance #content-blank{
-	height: 150px;
+	height: 250px;
 	background-color: white;
 }
 .float-image{
 	position: absolute;
-	width: 340px;
-	right: 0;
+	width: 450px;
+	right: 10px;
 	top: 80px;
 }
 .pattern-intro-right{
 	position: absolute;
-	width: 260px;
+	width: 350px;
 	right: 0;
 	top: 0px;
 	z-index: 1;
 }
 hr{
-	max-width: 90px;
-	color: hsl(270, 9%, 17%);
+	max-width: 120px;
+	color: rgb(43, 39, 47);
 }
 .btn-plans{
-	padding: 6px 12px;
-	margin-top: 20px;
+	padding: 10px 30px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	border: white solid 2px;
+	background: rgba(255,255,255,0);
+	font-family: 'Karla';
+	text-transform: uppercase;
+	color: white;
+}
+.pattern-intro-left{
+	position: absolute;
+	width: 200px;
+	top: 450px;
+	z-index: 1;
+}
+#content2{
+	position: relative;
+	max-width: 1050px;
+	margin: 0 auto;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+#content2 hr{
+	max-width: 120px;
+	color: rgb(131, 125, 135);
+}
+.title2{
+	font-family: 'DM Serif Display';
+	font-size: 4em;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.desc{
+	width: 33.3%;
+}
+.service-desc-l{
+	float: left;
+	display: table-cell;
+}
+.service-desc-c{
+	margin: 0 auto;
+	display: table-cell;
+}
+.service-desc-r{
+	float: right;
+	display: table-cell;
+}
+.subtitle{
+	font-family: 'DM Serif Display';
+	font-size: 2em;
+	padding-top: 20px;
+}
+.service-p{
+	font-family: 'Karla';
+	color: rgb(131, 125, 135);
+	padding-top: 20px;
+}
+#content-blank2{
+	height: 50px;
+	color: white;
+}
+.more{
+	background-color: rgb(45, 38, 64);
+	width: 1050px;
+	margin: 0 auto;
+	position: relative;
+}
+#content3 div.title{
+	font-family: 'DM Serif Display';
+	font-size: 3em;
+	color: white;
+	padding: 50px 50px;
+}
+.how-we-work{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 402px;
+}
+.btn-work{
+	border: white solid 2px;
+	background: transparent;
+	color: white;
+	padding: 10px 30px;
+	font-family: 'Karla';
+	text-transform: uppercase;
+	position: absolute;
+	top: 45%;
+	right: 5%;
+}
+#content-blank3{
+	height: 100px;
+	color: white;
+}
+.footer{
+	background-color: rgb(250, 250, 250);
+	position: relative;
+}
+footer{
+	padding-top: 50px;
+	width: 1050px;
+	margin: 0 auto;
+}
+.footer-pattern{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.footer-logo{
+	width: 30%;
+	display: inline-block;
+}
+.footer-socials{
+	text-align: end;
+	width: 69%;
+	display: inline-block;
+}
+.hr-footer{
+	max-width: 1050px;
+	color: rgb(131, 125, 135);
+	margin-top: 30px;
+}
+.footer-socials a{
+	padding: 5px;
+}
+.footer-links{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-family: 'Karla';
+	text-transform: uppercase;
+	display: inline-table;
+}
+.footer-links p{
+	color: rgb(131, 125, 135);
+	padding-bottom: 30px;
+}
+.footer-links a{
+	color: rgb(43, 39, 47);
+	display: list-item;
+	list-style: none;
+	padding-right: 150px;
+	line-height: 30px;
 }
