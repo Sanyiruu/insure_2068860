@@ -1,7 +1,7 @@
 * {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
+  	margin: 0;
+  	padding: 0;
+  	text-decoration: none;
 }
 header{
 	position: relative;
@@ -11,14 +11,14 @@ header{
 	margin: 0 auto;
 }
 .header-logo {
-  width: 30%;
-  display: inline-block;
+  	width: 30%;
+  	display: inline-block;
 }
 .header-menu-options{
-  width: 69%;
-  display: inline-block;
-  font-family: 'Karla';
-  text-align: end;
+  	width: 69%;
+  	display: inline-block;
+  	font-family: 'Karla';
+  	text-align: end;
 }
 .header-menu-options a{
 	font-family: 'Karla';
