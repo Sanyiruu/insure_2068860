@@ -1,3 +1,11 @@
+Ficha:
+
+2068860
+
+Nombre del Proyecto:
+
+Frontend Mentor | Insure Landing Page
+
 Integrantes:
 
 Yulieth Tatiana Hurtado Gallón
